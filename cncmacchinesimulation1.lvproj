@@ -14,16 +14,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="LabVIEW" Type="Folder">
 			<Item Name="CNC machine" Type="Folder">
-				<Item Name="cnc-product.vi" Type="VI" URL="../../../Documents/cnc-product.vi"/>
+				<Item Name="cnc-product.vi" Type="VI" URL="../cnc-product.vi"/>
 				<Item Name="cnc-rpm.vi" Type="VI" URL="../cnc-rpm.vi"/>
 				<Item Name="cnc-temperature.vi" Type="VI" URL="../cnc-temperature.vi"/>
-				<Item Name="CNC.vi" Type="VI" URL="../../../Documents/CNC.vi"/>
 			</Item>
 			<Item Name="Main" Type="Folder">
-				<Item Name="Main.vi" Type="VI" URL="../../../Documents/Main.vi"/>
-			</Item>
-			<Item Name="Main2" Type="Folder">
-				<Item Name="Main 2.vi" Type="VI" URL="../../../Documents/Main 2.vi"/>
+				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 				<Item Name="statemachine.ctl" Type="VI" URL="../statemachine.ctl"/>
 			</Item>
 		</Item>
@@ -57,7 +53,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{3A6405EE-78AC-4C98-B493-9711A838557F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LabVIEW/Main2/Main 2.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LabVIEW/Main/Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
