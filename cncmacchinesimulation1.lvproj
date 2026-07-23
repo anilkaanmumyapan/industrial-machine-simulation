@@ -18,6 +18,12 @@
 				<Item Name="cnc-rpm.vi" Type="VI" URL="../cnc-rpm.vi"/>
 				<Item Name="cnc-temperature.vi" Type="VI" URL="../cnc-temperature.vi"/>
 			</Item>
+			<Item Name="Control buttons" Type="Folder">
+				<Item Name="Pause button.ctl" Type="VI" URL="../Control buttons/Pause button.ctl"/>
+				<Item Name="Start buton.ctl" Type="VI" URL="../Control buttons/Start buton.ctl"/>
+				<Item Name="start button.ctl" Type="VI" URL="../Control buttons/start button.ctl"/>
+				<Item Name="stop button.ctl" Type="VI" URL="../Control buttons/stop button.ctl"/>
+			</Item>
 			<Item Name="Main" Type="Folder">
 				<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 				<Item Name="statemachine.ctl" Type="VI" URL="../statemachine.ctl"/>
